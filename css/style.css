@@ -1,5 +1,6 @@
 body {
   background-image: url("../images/black.jpg");
+
 }
 
 #page-wrapper {
@@ -47,7 +48,7 @@ body {
 
 #content-wrapper {
   background-image: url("../images/repeating.png");
-  float: left;
+  overflow: hidden;
 }
 
 #main-content {
