@@ -49,6 +49,12 @@ body {
 #content-wrapper {
   background-image: url("../images/repeating.png");
   overflow: hidden;
+} 
+
+#content-wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 #main-content {
